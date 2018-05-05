@@ -1,0 +1,29 @@
+.centered {
+    text-align: center;
+}
+
+input {
+    width: 800px;
+}
+
+.add-button-color {
+   color: green;
+}
+
+.remove {
+    color:red;
+    margin-left: 15px;
+}
+
+.col-md-6 {
+    padding-left: 35px;
+    margin-top: 15px;
+}
+
+#weekly-list {
+    border: 1px solid black;
+}
+
+#coding-list {
+    border: 1px solid black;
+}
