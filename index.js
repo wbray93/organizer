@@ -70,7 +70,8 @@ $(document).ready(function() {
   document.getElementById("organizer").onsubmit = function(e) {
     e.preventDefault();
     let task = document.querySelector("input").value;
-    organizer.addTasks(task);
+    let escapedTask = $(task).text();
+    organizer.addTasks(escapedTask);
     document.querySelector("input").value = "";
   };
   organizer.loadTasks();
